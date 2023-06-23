@@ -37,7 +37,7 @@ Links de cartão de visita, online
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK]https://www.figma.com/file/PgJnj0F6wjlFWUM4dhQAFV/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?type=design&mode=design&t=87fUlUDBFQT8wIMe-0. É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
