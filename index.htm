@@ -46,65 +46,75 @@
           <ion-icon name="logo-youtube"></ion-icon>
         </a> -->
 
-    <div id="container">
-      <div id="profile">
-        <img src="assets/William730 (1).png" alt="imagem do perfil" />
-        <p>@willdevfront</p>
-      </div>
-    
-      <div id="switch" onclick="toggleMode()">
-        <button> 
-    
-        </button>
-        <span></span>
-      </div>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/william07/" target="_blank">Linkedin</a>
-        </li>
-        <li>
-          <a href="#" onclick="toggleEbookList()">Baixar meu ebook</a>
-          <ul id="ebook-list">
-            <li>
-              <a href="https://drive.google.com/uc?export=download&id=1rMMMVldfhzjSfpAoKYHTGnHoo_YEiAdB">Front-end Developer</a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/uc?export=download&id=1Fum5OcIexfIrZQFOvRkqh9Q-InLS7ggO">Back-end Developer</a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/uc?export=download&id=1Fum5OcIexfIrZQFOvRkqh9Q-InLS7ggO">Mobile</a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/uc?export=download&id=1mU1UoAk0vF1V7clr2iB_acsfYrjBI4-N">Data Science</a>
-            </li>
-            <!-- Adicione mais itens de ebook conforme necessário -->
-          </ul>
-        </li>        
-        <!-- <li>
-          <a href="https://www.instagram.com/willdevfront">Instagram</a>
-        </li> -->
-        <li>
-          <a href="https://github.com/Wiillrodriigues">GitHub</a>
-        </li>
-      </ul>
-      <div id="lista-social">
-        <a href="https://bit.ly/3Prt18h" target="_blank">
-          <ion-icon name="logo-whatsapp"></ion-icon>
-        </a>
-    
-        <a href="https://www.instagram.com/sr._rodriigues/" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-    
-        <!-- <a href="https://www.youtube.com/channel/UCtFBK7-kzsyUmMwhrFbKT3A" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a> -->
-    
-        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-          <ion-icon name="mail"></ion-icon>
-        </a>
-      </div>
-    </div>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Projeto Rocketseat</title>
+          <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+          <div id="container">
+            <div id="profile">
+              <img src="assets/William730 (1).png" alt="imagem do perfil" />
+              <p>@willdevfront</p>
+            </div>
+        
+            <div id="switch" onclick="toggleMode()">
+              <button></button>
+              <span></span>
+            </div>
+        
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/william07/" target="_blank">Linkedin</a>
+              </li>
+              <li>
+                <a href="#" onclick="toggleEbookList()">Baixar meu ebook</a>
+                <ul id="ebook-list" style="display: none;">
+                  <li>
+                    <a href="#" onclick="downloadEbook('https://drive.google.com/uc?export=download&id=1rMMMVldfhzjSfpAoKYHTGnHoo_YEiAdB')">Front-end Developer</a>
+                  </li>
+                  <li>
+                    <a href="#" onclick="downloadEbook('https://drive.google.com/uc?export=download&id=1Fum5OcIexfIrZQFOvRkqh9Q-InLS7ggO')">Back-end Developer</a>
+                  </li>
+                  <li>
+                    <a href="#" onclick="downloadEbook('https://drive.google.com/uc?export=download&id=1mU1UoAk0vF1V7clr2iB_acsfYrjBI4-N')">Mobile</a>
+                  </li>
+                  <li>
+                    <a href="#" onclick="downloadEbook('https://drive.google.com/uc?export=download&id=1mU1UoAk0vF1V7clr2iB_acsfYrjBI4-N')">Data Science</a>
+                  </li>
+                  <!-- Adicione mais itens de ebook conforme necessário -->
+                </ul>
+              </li>
+              <li>
+                <a href="https://github.com/Wiillrodriigues">GitHub</a>
+              </li>
+            </ul>
+        
+            <div id="lista-social">
+              <a href="https://bit.ly/3Prt18h" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+          
+              <a href="https://www.instagram.com/sr._rodriigues/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+        
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <ion-icon name="mail"></ion-icon>
+              </a>
+            </div>
+          </div>
+        
+          <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> 
+          <script src="./script.js"></script>
+        
+          
+        </body>
+        </html>
+        
     
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> 
     <script src="./script.js"> </script>
