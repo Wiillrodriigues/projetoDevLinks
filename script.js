@@ -10,3 +10,14 @@ function toggleMode() {
     
      html.classList.toggle('light')
 }
+
+
+function toggleEbookList() {
+        var ebookList = document.getElementById("ebook-list");
+        if (ebookList.style.display === "none") {
+          ebookList.style.display = "block";
+        } else {
+          ebookList.style.display = "none";
+        }
+      }
+      

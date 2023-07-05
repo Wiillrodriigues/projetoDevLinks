@@ -80,7 +80,7 @@ ul li a {
     border-radius: 15px;
     border: 1px solid var(--stroke-color);
     text-decoration: none;
-    transition: all 0.3s;
+   
    
 }
 
@@ -151,3 +151,4 @@ ul li a:hover {
     left: initial;
 
 }
+
